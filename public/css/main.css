@@ -1,0 +1,40 @@
+body {
+  background-color: #000; }
+
+.header-bg {
+  background-image: url("/images/terrestrials-bg.png");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 300ms;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 300ms; }
+  @media (max-width: 599px) {
+    .header-bg {
+      background-image: url("/images/terrestrials-mobile.png"); } }
+
+.soon {
+  margin-top: .5em;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Lato', sans-serif;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 300ms;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 300ms; }
+
+.t-line {
+  width: 500px;
+  margin-top: -11.5em;
+  margin-bottom: 0;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 300ms;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 300ms; }
+
+/*# sourceMappingURL=main.css.map */
