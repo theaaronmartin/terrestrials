@@ -19,7 +19,7 @@ html, body {
 
 .header-bg {
   background-image: url("/images/terrestrials-bg.png");
-  height: 100px;
+  height: 200px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -28,6 +28,12 @@ html, body {
   -webkit-animation-delay: 300ms;
   -moz-animation-duration: 3s;
   -moz-animation-delay: 300ms;
+  @media(max-width: 2560px) {
+    height: 200px;
+  }
+  @media(max-width: 1920px) {
+    height: 150px;
+  }
   @media(max-width: 599px) {
     background-image: url("/images/terrestrials-mobile.png");
   }
