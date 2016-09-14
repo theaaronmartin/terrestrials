@@ -1,4 +1,5 @@
 $lato: 'Lato', sans-serif;
+$filter: rgba(0,0,0,.7);
 
 html, body {
   height: 100%;
@@ -9,8 +10,24 @@ html, body {
 }
 
 .logo-box {
-  background-color: rgba(0,0,0,.7);
+  background-color: $filter;
   height: 100%;
+}
+
+.footer-box {
+  margin-top: 38.5%;
+  @media(max-width: 2560px) {
+    margin-top: 22.5%;
+  }
+  @media(max-width: 1920px) {
+    margin-top: 38.5%;
+  }
+  @media(max-width: 1600px) {
+    margin-top: 49.5%;
+  }
+  @media(max-width: 599px) {
+    margin-top: 18%;
+  }
 }
 
 .make-it-center {
@@ -67,6 +84,9 @@ html, body {
   -webkit-animation-delay: 5s;
   -moz-animation-duration: 3s;
   -moz-animation-delay: 5s;
+  @media(max-width: 599px) {
+    font-size: 14px;
+  }
 }
 
 .spring {
@@ -80,6 +100,9 @@ html, body {
   -webkit-animation-delay: 14s;
   -moz-animation-duration: 3s;
   -moz-animation-delay: 14s;
+  @media(max-width: 599px) {
+    font-size: 10px;
+  }
 }
 
 .t-line {
@@ -95,11 +118,32 @@ html, body {
     width: 1000px;
   }
   @media(max-width: 1920px) {
-    // margin-top: -10em;
+    margin-top: .5em;
     width: 800px;
   }
   @media(max-width: 1600px) {
     // margin-top: -4.5em;
     width: 600px;
   }
+  @media(max-width: 599px) {
+    margin-top: -4em;
+    width: 150px;
+  }
+}
+
+.copyright {
+  font-family: $lato;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+  @media(max-width: 599px) {
+    font-size: 8px;
+  }
+}
+
+audio {
+  background-color: #000;
+  margin: auto;
+  margin-top: 50%;
+  display: block;
 }
