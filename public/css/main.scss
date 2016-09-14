@@ -1,10 +1,25 @@
-body {
-  background-color: #000;
+$lato: 'Lato', sans-serif;
+
+html, body {
+  height: 100%;
+  background-image: url("/images/alien.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.logo-box {
+  background-color: rgba(0,0,0,.7);
+  height: 100%;
+}
+
+.make-it-center {
+  margin-top: 15%;
 }
 
 .header-bg {
   background-image: url("/images/terrestrials-bg.png");
-  height: 500px;
+  height: 100px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -18,36 +33,67 @@ body {
   }
 }
 
+.logo {
+  color: #fff;
+  text-align: center;
+  font-family: $lato;
+  font-size: 80px;
+  font-weight: 100;
+  letter-spacing: 20px;
+  top: 50%;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 300ms;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 300ms;
+  @media(max-width: 1600) {
+    font-size: 120px;
+  }
+}
+
 .soon {
   margin-top: .5em;
   color: #fff;
   font-weight: normal;
   text-align: center;
   font-size: 40px;
-  font-family: 'Lato', sans-serif;
+  font-family: $lato;
   -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 300ms;
+  -webkit-animation-delay: 5s;
   -moz-animation-duration: 3s;
-  -moz-animation-delay: 300ms;
+  -moz-animation-delay: 5s;
+}
+
+.spring {
+  margin-top: 0;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  font-size: 24px;
+  font-family: $lato;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-delay: 14s;
+  -moz-animation-duration: 3s;
+  -moz-animation-delay: 14s;
 }
 
 .t-line {
   width: 500px;
-  margin-top: -11.5em;
+  // margin-top: -11.5em;
   margin-bottom: 0;
   -webkit-animation-duration: 3s;
   -webkit-animation-delay: 300ms;
   -moz-animation-duration: 3s;
   -moz-animation-delay: 300ms;
   @media(max-width: 2560px) {
-    margin-top: -8em;
+    // margin-top: -8em;
     width: 1000px;
   }
   @media(max-width: 1920px) {
-    margin-top: -10em;
+    // margin-top: -10em;
     width: 800px;
   }
   @media(max-width: 1600px) {
-    margin-top: -10em;
+    // margin-top: -4.5em;
+    width: 600px;
   }
 }
