@@ -110,6 +110,7 @@ html, body {
       width: 800px; } }
   @media (max-width: 1600px) {
     .t-line {
+      margin-top: -1.5em;
       width: 600px; } }
   @media (max-width: 599px) {
     .t-line {
